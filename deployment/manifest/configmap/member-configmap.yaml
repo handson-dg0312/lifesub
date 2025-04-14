@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: member-configmap
+  namespace: dg0305-lifesub-ns
+data:
+  SERVER_PORT: "8081"
+  POSTGRES_HOST: "postgres-member"
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: "member"
+  JPA_DDL_AUTO: "update"
+  JPA_SHOW_SQL: "true"
+  JWT_ACCESS_TOKEN_VALIDITY: "3600000"
+  JWT_REFRESH_TOKEN_VALIDITY: "86400000"
+  ALLOWED_ORIGINS: "http://20.249.203.17"

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: recommend-configmap
+  namespace: dg0305-lifesub-ns
+data:
+  SERVER_PORT: "8083"
+  POSTGRES_HOST: "postgres-recommend"
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: "recommend"
+  JPA_DDL_AUTO: "update"
+  JPA_SHOW_SQL: "true"
+  ALLOWED_ORIGINS: "http://20.249.203.17"
