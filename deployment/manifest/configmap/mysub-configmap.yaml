@@ -5,11 +5,11 @@ metadata:
   namespace: dg0312-lifesub-ns
 data:
   SERVER_PORT: "8082"
-  POSTGRES_HOST: "postgres-mysub"
+  POSTGRES_HOST: "postgres-mysub-postgresql"
   POSTGRES_PORT: "5432"
   POSTGRES_DB: "mysub"
   JPA_DDL_AUTO: "update"
   JPA_SHOW_SQL: "true"
-  ALLOWED_ORIGINS: "http://20.214.122.51"
+  ALLOWED_ORIGINS: "http://20.249.105.79"
   FEE_LEVEL_COLLECTOR: "50000"
   FEE_LEVEL_ADDICT: "100000"
